@@ -1,0 +1,2 @@
+# thinkpad
+Notes on ThinkPads
