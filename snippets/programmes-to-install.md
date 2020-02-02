@@ -43,3 +43,4 @@ These programmes ship with most Linux distros (eg. Pop!_OS)
 - [OneTab](https://addons.mozilla.org/en-GB/firefox/addon/onetab/) easily save all open tabs 
 - [The Camelizer](https://addons.mozilla.org/en-GB/firefox/addon/the-camelizer-price-history-ch/) Amazon price history from CamelCamelCamel
 - [KeePassXC-Browser](https://addons.mozilla.org/en-GB/firefox/addon/keepassxc-browser/) auto-fill passwords from your KeePassXC database
+- [DuckDuckGo](https://addons.mozilla.org/en-US/firefox/addon/duckduckgo-for-firefox/) switch default search engine from Google to DDG
