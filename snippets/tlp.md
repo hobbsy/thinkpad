@@ -14,6 +14,10 @@ not automatically running so either reboot or run:
 
 `sudo systemctl start tlp`
 
-`sudo tlp-stat -s
+`sudo tlp-stat -s`
+
+or save the result of that to a text/log file
+
+`sudo tlp-stat -s >> "$(date +"%Y%m%d-%H%M")-tlp.log"`
 
 
