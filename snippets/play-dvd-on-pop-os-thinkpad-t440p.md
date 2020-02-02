@@ -169,9 +169,12 @@ https://help.ubuntu.com/community/RestrictedFormats/PlayingDVDs
 
 maybe a reboot will help?
 
-I installed MakeMKV in case it installed some special plugin/codec that would allow my internal DVD drive to read the commercial DVD
+I installed **MakeMKV** in case it installed some special plugin/codec that would allow my internal DVD drive to read the commercial DVD
 
-Doesn't seem to work...
+https://www.makemkv.com/  
+https://www.makemkv.com/forum/viewtopic.php?f=3&t=224
+
+Doesn't seem to work - DVDs are still not reading...
 
 >>MakeMKV v1.14.7 linux(x64-release) started
 >>Automatic checking for updates is enabled, you may disable it in preferences if you don't want MakeMKV to contact web server.
