@@ -24,16 +24,16 @@ https://wiki.archlinux.org/index.php/TLP
 ### KeePassXC
 
 KeePassXC is a cross-platform open-source password manager.  
-https://keepassxc.org/
-https://wiki.archlinux.org/index.php/KeePass
+https://keepassxc.org/  
+https://wiki.archlinux.org/index.php/KeePass  
 https://en.wikipedia.org/wiki/KeePassXC
 
 ### Bitwarden
 
 An alternative free and open-source password manager to consider.
-https://bitwarden.com/
-https://en.wikipedia.org/wiki/Bitwarden
-https://github.com/bitwarden
+https://bitwarden.com/  
+https://en.wikipedia.org/wiki/Bitwarden  
+https://github.com/bitwarden  
 
 
 ### Cmus
