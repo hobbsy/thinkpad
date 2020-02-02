@@ -118,3 +118,36 @@ Following the README.css link gives
 I double-checked and it does say 'PAL 2' on the disc, so I do think it's Region 2. 
 I tried a complete different DVD that is also PAL 2 and got the same error on 'Videos' about `libdvdcss'
 
+The error in my logfile was referring to season 1 disc 1 that is indeed NTSC Region 1. Disc 1 of Season 2 should be PAL 2.
+
+I suppose the DVD-ROM drive itself could be faulty in this ThinkPad ?
+
+Maybe I will install Handbrake and see if that installs the right codecs/plugins ?
+
+`sudo add-apt-repository ppa:stebbins/handbrake-releases`
+`sudo apt-get update`
+`apt-get install handbrake-gtk`
+`apt-get install handbrake-cli`
+
+`sudo apt install handbrake-gtk`
+`sudo apt install handbrake-cli`
+
+At this point I am using a Roadrunner DVD disc that is PAL Region 2
+
+looking at the Handbrake logs I see
+
+>Cannot load libnvidia-encode.so.1
+
+maybe relevant?
+
+>>[17:54:49] hb_scan: path=/media/thinkpad/ROAD_RUNNER_AND_FRIENDS_L1/VIDEO_TS, title_index=0
+>>disc.c:424: error opening file BDMV/index.bdmv
+>>disc.c:424: error opening file BDMV/BACKUP/index.bdmv
+>>bluray.c:2585: nav_get_title_list(/media/thinkpad/ROAD_RUNNER_AND_FRIENDS_L1/VIDEO_TS/) failed
+>>[17:54:49] bd: not a bd - trying as a stream/file instead
+>>libdvdnav: Using dvdnav version 6.0.1
+>>libdvdread: Attempting to use device /dev/sr0 mounted on /media/thinkpad/ROAD_RUNNER_AND_FRIENDS_L1 for CSS authentication
+>>libdvdnav: Can't read name block. Probably not a DVD-ROM device.
+>>libdvdnav: vm: dvd_read_name failed
+>>libdvdnav: DVD disk reports itself with Region mask 0x00e50000. Regions: 2 4 5
+
