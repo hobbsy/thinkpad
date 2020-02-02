@@ -174,7 +174,30 @@ I installed **MakeMKV** in case it installed some special plugin/codec that woul
 https://www.makemkv.com/  
 https://www.makemkv.com/forum/viewtopic.php?f=3&t=224
 
-Doesn't seem to work - DVDs are still not reading...
+>Download both binary and source packages:  
+https://www.makemkv.com/download/makemkv-bin-1.14.7.tar.gz
+https://www.makemkv.com/download/makemkv-oss-1.14.7.tar.gz
+
+unzip these files
+
+then run this command:  
+
+`sudo apt-get install build-essential pkg-config libc6-dev libssl-dev libexpat1-dev libavcodec-dev libgl1-mesa-dev libqt4-dev zlib1g-dev`
+
+For makemkv-oss package:  
+
+`./configure`  
+`make`  
+`sudo make install`
+
+For makemkv-bin package:  
+
+`make`  
+`sudo make install`
+
+The application will be installed as "/usr/bin/makemkv".
+
+End result for me:- doesn't seem to work - DVDs are still not reading...
 
 >>MakeMKV v1.14.7 linux(x64-release) started
 >>Automatic checking for updates is enabled, you may disable it in preferences if you don't want MakeMKV to contact web server.
