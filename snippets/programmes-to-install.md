@@ -6,24 +6,30 @@ You should be able to install them all at once in one long command if you wish:
 
 eg
 
-``sudo apt install neofetch keepassxc cmus``
+``sudo apt install neofetch tlp keepassxc cmus``
 
 
 ### Neofetch
 
-Neofetch is a command-line system information tool  
+Neofetch is a command-line system information tool.  
 https://github.com/dylanaraps/neofetch
+
+
+### TLP
+
+Command-line tool that saves and optimizes laptop battery power on Linux and allows ThinkPads to set battery charge threshold.  
+https://linrunner.de/en/tlp/docs/tlp-linux-advanced-power-management.html
 
 
 ### KeePassXC
 
-KeePassXC is a cross-platform open-source password manager  
+KeePassXC is a cross-platform open-source password manager.  
 https://keepassxc.org/
 
 
 ### Cmus
 
-cmus is a small, fast and powerful console music player for Unix-like operating systems  
+cmus is a small, fast and powerful console music player for Unix-like operating systems.  
 https://github.com/cmus/cmus
 
 
