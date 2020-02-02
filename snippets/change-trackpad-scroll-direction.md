@@ -8,7 +8,7 @@ To adjust this setting you need to go into:
 
 `Settings > Devices > Mouse & Touchpad`
 
-and under the heading *Touchpad* you can turn on 'Natural Scrolling' 
+and under the heading **Touchpad** you can turn on 'Natural Scrolling' 
 
 "Scrolling moves the content, not the view"
 
