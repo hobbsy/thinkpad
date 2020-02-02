@@ -25,3 +25,19 @@ https://keepassxc.org/
 
 cmus is a small, fast and powerful console music player for Unix-like operating systems  
 https://github.com/cmus/cmus
+
+
+
+### Pre-installed
+
+These programmes ship with most Linux distros (eg. Pop!_OS)
+
+
+
+### Firefox
+
+#### Firefox extensions
+
+- Pocket (pre-installed)
+- uBlock Origin
+
