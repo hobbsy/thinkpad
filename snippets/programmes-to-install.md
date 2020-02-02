@@ -17,7 +17,7 @@ https://github.com/dylanaraps/neofetch
 
 ### KeePassXC
 
-KeePassXC is a cross-platform open-source password manager
+KeePassXC is a cross-platform open-source password manager  
 https://keepassxc.org/
 
 
