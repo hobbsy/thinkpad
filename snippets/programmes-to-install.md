@@ -42,4 +42,4 @@ These programmes ship with most Linux distros (eg. Pop!_OS)
 - [uBlock Origin](https://addons.mozilla.org/en-GB/firefox/addon/ublock-origin/) block adverts
 - [OneTab](https://addons.mozilla.org/en-GB/firefox/addon/onetab/) easily save all open tabs 
 - [The Camelizer](https://addons.mozilla.org/en-GB/firefox/addon/the-camelizer-price-history-ch/) Amazon price history from CamelCamelCamel
-- [KeePassXC-Browser](https://addons.mozilla.org/en-GB/firefox/addon/keepassxc-browser/) auto-fill passwords from KeePassXC
+- [KeePassXC-Browser](https://addons.mozilla.org/en-GB/firefox/addon/keepassxc-browser/) auto-fill passwords from your KeePassXC database
