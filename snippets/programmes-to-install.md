@@ -70,3 +70,6 @@ to allow glxgears to run
 `sudo apt install obs-studio`
 OBS - to screen record and create YouTube tutorials
 
+GNOME Tweaks
+https://wiki.gnome.org/Apps/Tweaks
+not sure if this will work on Pop!_OS
