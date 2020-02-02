@@ -28,7 +28,7 @@ https://github.com/cmus/cmus
 
 
 
-### Pre-installed
+## Pre-installed Apps
 
 These programmes ship with most Linux distros (eg. Pop!_OS)
 
