@@ -88,13 +88,15 @@ to allow glxgears to run
 `sudo apt install obs-studio`
 OBS - to screen record and create YouTube tutorials
 
-GNOME Tweaks
-https://wiki.gnome.org/Apps/Tweaks
-not sure if this will work on Pop!_OS
-is this the same as 
+### GNOME Tweak Tool  
+https://wiki.gnome.org/Apps/Tweaks  
 `gnome-tweak-tool`
 
-### Playing a DVD
+- Dash to Dock
+https://support.system76.com/articles/dash-to-dock/
+
+
+## Playing a DVD
 
 To play a DVD on the T440p DVD-Rom drive using `Videos` in-built app, you might need to install extra multimedia plugins - eg.  
 gstreamer1.0-plugins-ugly (this one is pre-selected)  
