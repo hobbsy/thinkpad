@@ -35,13 +35,14 @@ think it may also require `libdvdcss` to play a commercial DVD (PAL Region 2)
 Maybe install Ubuntu Restricted Extras:
 `sudo apt install ubuntu-restricted-extras`
 
-Alternatively follow the advice on this blogpost"
+Alternatively follow the advice on this blogpost:  
 
-**Watch Videos and Play Music (MP3, DVD, etc.)**
+**Watch Videos and Play Music (MP3, DVD, etc.)**  
 https://support.system76.com/articles/codecs/
 
-Copy and paste the following line for Ubuntu/Pop 18.10 and up:
-`sudo apt install -y gstreamer1.0-plugins-bad gstreamer1.0-plugins-ugly gstreamer1.0-plugins-good libavcodec-extra gstreamer1.0-libav chromium-codecs-ffmpeg-extra libdvd-pkg`
+Copy and paste the following line for Ubuntu/Pop 18.10 and up:  
+`sudo apt install -y gstreamer1.0-plugins-bad gstreamer1.0-plugins-ugly gstreamer1.0-plugins-good libavcodec-extra gstreamer1.0-libav chromium-codecs-ffmpeg-extra libdvd-pkg`  
 
-after this, to set-up DVD playback:
-`sudo dpkg-reconfigure libdvd-pkg`
+after this, to set-up DVD playback:  
+`sudo dpkg-reconfigure libdvd-pkg`  
+
