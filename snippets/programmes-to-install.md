@@ -28,6 +28,17 @@ https://keepassxc.org/
 https://wiki.archlinux.org/index.php/KeePass  
 https://en.wikipedia.org/wiki/KeePassXC  
 
+### Telegram
+
+https://telegram.org/
+
+Messenger
+
+### Signal
+
+https://www.signal.org/
+
+Messenger
 
 
 ### Cmus
