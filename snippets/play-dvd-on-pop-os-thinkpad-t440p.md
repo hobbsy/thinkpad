@@ -1,5 +1,13 @@
 # How to set-up DVD player on Pop!_OS 19.10 and ThinkPad T440p
 
+Here are some notes for my own benefit (to remind me) on how to set up the DVD player
+
+**work in progress**
+
+I'm testing this out with DVD disc 1 of King Of The Hill season 2 boxset, a Region 2 PAL disc (which I picked up from a charity shop for 50p)
+
+This isn't working under a vanilla Pop!_OS install... I will try and figure out how to fix it.
+
 ## Playing a DVD
 
 To play a DVD on the T440p DVD-Rom drive using the `Videos` in-built app (aka Totem) on Pop!_OS 19.10, you might need to install extra multimedia plugins - eg.  
