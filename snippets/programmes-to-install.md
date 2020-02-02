@@ -43,6 +43,12 @@ https://wiki.archlinux.org/index.php/Mpv
 
 mpv is a media player based on MPlayer and the now unmaintained mplayer2. It supports a wide variety of video file formats, audio and video codecs, and subtitle types
 
+### Handbrake
+https://handbrake.fr/
+
+### MakeMKV
+https://www.makemkv.com/
+
 
 ## Alternatives
 
