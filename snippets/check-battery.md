@@ -40,9 +40,9 @@ Which gives me the result:
     icon-name:          'battery-full-charged-symbolic'
 ```
 
-This is an official Lenovo 57++ (9-cell battery) `SANYO 45N1779` that I picked up from eBay last week for ~£40.  
+This is an official Lenovo 57++ (9-cell battery) `SANYO 45N1779` that I picked up from eBay for around £40.  
 
-This battery when new is 99.47 Wh, and mine currently has a capacity of 98.46 Wh (98.9846% according to this report).  
+This battery when new is 99.47 Wh - mine currently has a capacity of 98.46 Wh (98.9846% according to this report).  
 
 It may also be of use to turn this info into a little script to save the results to a text file (and run it every hour from cron?)  
 
@@ -54,17 +54,17 @@ I probably only need to grab a few of those figures like `energy`, `percentage`,
 
 This could maybe be hooked up to a Google Sheets spreadsheet and IFTTT.  
 
-### Further Reading
+## Further Reading
 
 Some helpful notes can be found on Pop!_OS's website  
 https://support.system76.com/articles/battery/
 
 >We recommend using TLP to quickly reduce overall power consumption and using powertop to check what software is consuming the battery
 
-## TLP
+### TLP
 
 `sudo apt install tlp tlp-rdw --no-install-recommends`
 
-## PowerTop
+### PowerTop
 
 `sudo apt install powertop`
