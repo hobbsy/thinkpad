@@ -71,6 +71,7 @@ search for vlc within this
 
 Searching through this file for 'vlc' I came across:
 
+<blockquote>
 >Feb  2 14:38:19 pop-os vlc.desktop[1794]: libdvdread: Attempting to use device /dev/sr0 mounted on /media/thinkpad/KING_HILL_S1D1 for CSS authentication
 >Feb  2 14:38:19 pop-os vlc.desktop[1794]: libdvdnav: Can't read name block. Probably not a DVD-ROM device.
 >Feb  2 14:38:19 pop-os vlc.desktop[1794]: libdvdnav: vm: dvd_read_name failed
@@ -86,6 +87,7 @@ Searching through this file for 'vlc' I came across:
 >Feb  2 14:38:20 pop-os vlc.desktop[1794]: **  for more information.                     **
 >Feb  2 14:38:20 pop-os vlc.desktop[1794]: **                                            **
 >Feb  2 14:38:20 pop-os vlc.desktop[1794]: ************************************************
+</blockquote>
 
 maybe this isn't Region 2 (UK) but Region 1 (despite what it says on the box). Double-check shortly with a Region 2 DVD.
 
