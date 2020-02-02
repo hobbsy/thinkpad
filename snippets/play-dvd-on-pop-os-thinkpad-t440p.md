@@ -58,4 +58,7 @@ go into:
 Advanced > Logger
 
 tick the box for 'Log to file' and choose a filename for your logfile
+change 'Verbosity' to 'Debug'
+restart VLC
+
 
