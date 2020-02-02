@@ -113,3 +113,8 @@ libgupnp-igd-1.0.4 (0.2.5-3ubuntu1)
 timgm6mb-soundfont (1.3-3)
 libnice10 (0.1.14-1)
 plus another 19 ....
+
+think it may also require `libdvdcss` to play a commercial DVD (PAL Region 2)
+
+> An error occured
+> The source seems encrypted and can't be read. Are you trying to play an encrypted DVD without libdvdcss?
