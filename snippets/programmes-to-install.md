@@ -39,5 +39,5 @@ These programmes ship with most Linux distros (eg. Pop!_OS)
 #### Firefox extensions
 
 - Pocket (pre-installed)
-- uBlock Origin
+- [uBlock Origin](https://addons.mozilla.org/en-GB/firefox/addon/ublock-origin/)
 
