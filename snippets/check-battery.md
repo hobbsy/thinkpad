@@ -48,7 +48,7 @@ It may also be of use to turn this info into a little script to save the results
 
 Maybe something like, 
 
-`upower -i /org/freedesktop/UPower/devices/battery_BAT0 >> "$(date +"%Y%m%d-%I%M")-battery.log"`
+`upower -i /org/freedesktop/UPower/devices/battery_BAT0 >> "$(date +"%Y%m%d-%H%M")-battery.log"`
 
 I probably only need to grab a few of those figures like `energy`, `percentage`, `capacity`.  
 
