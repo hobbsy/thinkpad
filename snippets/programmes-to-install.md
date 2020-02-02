@@ -62,7 +62,7 @@ These programmes ship with most Linux distros (eg. Pop!_OS)
 
 
 
-##Other random things to maybe install
+## Other random things to maybe install
 
 `sudo apt install mesa-utils`
 to allow glxgears to run
