@@ -113,3 +113,8 @@ Following the README.css link gives
 > [0] <http://en.wikipedia.org/wiki/Content_Scramble_System>
 >
 > -- Daniel Baumann <mail@daniel-baumann.ch>  Fri, 02 Oct 2009 16:10:06 +0200
+
+
+I double-checked and it does say 'PAL 2' on the disc, so I do think it's Region 2. 
+I tried a complete different DVD that is also PAL 2 and got the same error on 'Videos' about `libdvdcss'
+
