@@ -168,3 +168,17 @@ https://help.ubuntu.com/community/RestrictedFormats/PlayingDVDs
 >libdvd-pkg: guest package [libdvdcss2/1.4.2-1~local] is already installed.
 
 maybe a reboot will help?
+
+I installed MakeMKV in case it installed some special plugin/codec that would allow my internal DVD drive to read the commercial DVD
+
+Doesn't seem to work...
+
+>>MakeMKV v1.14.7 linux(x64-release) started
+>>Automatic checking for updates is enabled, you may disable it in preferences if you don't want MakeMKV to contact web server.
+>>Downloading latest SDF to /home/thinkpad/.MakeMKV ...
+>>Error 'Scsi error - ILLEGAL REQUEST:READ OF SCRAMBLED SECTOR WITHOUT AUTHENTICATION' occurred while reading 'DVD+R-DL MATSHITA DVD-RAM UJ8G2 1.00' at offset '1048576'
+
+At this point I am going to try an external USB DVD drive and see if I get similar errors.
+
+I might just get rid of the DVD bay and use it to house a SSD instead
+
