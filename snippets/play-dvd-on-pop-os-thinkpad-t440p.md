@@ -208,3 +208,7 @@ At this point I am going to try an external USB DVD drive and see if I get simil
 
 I might just get rid of the DVD bay and use it to house a SSD instead
 
+Update:
+I was able to successfully rip (with Handbrake and MakeMKV) the Roadrunner DVD using an USB external DVD drive. It didn't however seem to want to play the disc smoothly when direct playing via VLC/Videos/mpv. The ripped m4v and mkv files played fine.
+
+Giving up on this for now. Possibly chalking it up as a defective internal DVD drive. Might see if it can play CDs at some point.
