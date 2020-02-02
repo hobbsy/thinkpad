@@ -38,6 +38,7 @@ These programmes ship with most Linux distros (eg. Pop!_OS)
 
 #### Firefox extensions
 
-- [Pocket](https://getpocket.com/firefox/) (pre-installed)
-- [uBlock Origin](https://addons.mozilla.org/en-GB/firefox/addon/ublock-origin/)
-- [OneTab](https://addons.mozilla.org/en-GB/firefox/addon/onetab/)
+- [Pocket](https://getpocket.com/firefox/) (pre-installed) save articles to read later
+- [uBlock Origin](https://addons.mozilla.org/en-GB/firefox/addon/ublock-origin/) block adverts
+- [OneTab](https://addons.mozilla.org/en-GB/firefox/addon/onetab/) easily save all open tabs 
+- [The Camelizer](https://addons.mozilla.org/en-GB/firefox/addon/the-camelizer-price-history-ch/) Amazon price history from CamelCamelCamel
