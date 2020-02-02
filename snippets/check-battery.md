@@ -54,8 +54,12 @@ I probably only need to grab a few of those figures like `energy`, `percentage`,
 
 This could maybe be hooked up to a Google Sheets spreadsheet and IFTTT.  
 
+### Further Reading
+
 Some helpful notes can be found on Pop!_OS's website  
 https://support.system76.com/articles/battery/
+
+>We recommend using TLP to quickly reduce overall power consumption and using powertop to check what software is consuming the battery
 
 ## TLP
 
