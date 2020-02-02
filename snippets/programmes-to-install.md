@@ -91,3 +91,15 @@ OBS - to screen record and create YouTube tutorials
 GNOME Tweaks
 https://wiki.gnome.org/Apps/Tweaks
 not sure if this will work on Pop!_OS
+
+### Playing a DVD
+
+To play a DVD on the T440p DVD-Rom drive using `Videos` in-built app, you might need to install extra multimedia plugins - eg.  
+gstreamer1.0-plugins-ugly (this one is pre-selected)  
+gsreamer-1.0-plugins-bad  
+
+which installs:  
+libopencore-amrnb0 (0.1.3-2.1build1)  
+libopencore-amrwb0 (0.1.3-2.1build1)  
+libsidplay1v5 (1.36.59-11)  
+
