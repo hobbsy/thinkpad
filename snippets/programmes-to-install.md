@@ -12,25 +12,25 @@ eg
 ### Neofetch
 
 Neofetch is a command-line system information tool.  
-https://github.com/dylanaraps/neofetch
+https://github.com/dylanaraps/neofetch  
 
 
 ### TLP
 
 Command-line tool that saves and optimizes laptop battery power on Linux and allows ThinkPads to set battery charge threshold.  
-https://linrunner.de/en/tlp/docs/tlp-linux-advanced-power-management.html
-https://wiki.archlinux.org/index.php/TLP
+https://linrunner.de/en/tlp/docs/tlp-linux-advanced-power-management.html  
+https://wiki.archlinux.org/index.php/TLP  
 
 ### KeePassXC
 
 KeePassXC is a cross-platform open-source password manager.  
 https://keepassxc.org/  
 https://wiki.archlinux.org/index.php/KeePass  
-https://en.wikipedia.org/wiki/KeePassXC
+https://en.wikipedia.org/wiki/KeePassXC  
 
 ### Bitwarden
 
-An alternative free and open-source password manager to consider.
+An alternative free and open-source password manager to consider.  
 https://bitwarden.com/  
 https://en.wikipedia.org/wiki/Bitwarden  
 https://github.com/bitwarden  
@@ -39,8 +39,8 @@ https://github.com/bitwarden
 ### Cmus
 
 cmus is a small, fast and powerful console music player for Unix-like operating systems.  
-https://github.com/cmus/cmus
-https://wiki.archlinux.org/index.php/Cmus
+https://github.com/cmus/cmus  
+https://wiki.archlinux.org/index.php/Cmus  
 
 
 ## Pre-installed Apps
