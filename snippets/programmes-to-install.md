@@ -6,13 +6,20 @@ You should be able to install them all at once in one long command if you wish:
 
 eg
 
-``sudo apt install neofetch cmus``
+``sudo apt install neofetch keepassxc cmus``
 
 
 ### Neofetch
 
 Neofetch is a command-line system information tool  
 https://github.com/dylanaraps/neofetch
+
+
+### KeePassXC
+
+KeePassXC is a cross-platform open-source password manager
+https://keepassxc.org/
+
 
 ### Cmus
 
