@@ -46,3 +46,16 @@ Copy and paste the following line for Ubuntu/Pop 18.10 and up:
 after this, to set-up DVD playback:  
 `sudo dpkg-reconfigure libdvd-pkg`  
 
+
+Enable logging in VLC to see where we are going wrong
+
+Go into :
+
+Tools > Preferences 
+under 'Show Settings' change to 'All
+go into:
+
+Advanced > Logger
+
+tick the box for 'Log to file' and choose a filename for your logfile
+
