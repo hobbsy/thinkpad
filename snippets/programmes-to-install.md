@@ -100,10 +100,16 @@ https://support.system76.com/articles/dash-to-dock/
 
 To play a DVD on the T440p DVD-Rom drive using `Videos` in-built app, you might need to install extra multimedia plugins - eg.  
 gstreamer1.0-plugins-ugly (this one is pre-selected)  
-gsreamer-1.0-plugins-bad  
 
 which installs:  
 libopencore-amrnb0 (0.1.3-2.1build1)  
 libopencore-amrwb0 (0.1.3-2.1build1)  
 libsidplay1v5 (1.36.59-11)  
 
+gsreamer-1.0-plugins-bad  
+
+which installs:  
+libgupnp-igd-1.0.4 (0.2.5-3ubuntu1)
+timgm6mb-soundfont (1.3-3)
+libnice10 (0.1.14-1)
+plus another 19 ....
