@@ -28,6 +28,14 @@ https://keepassxc.org/
 https://wiki.archlinux.org/index.php/KeePass
 https://en.wikipedia.org/wiki/KeePassXC
 
+### Bitwarden
+
+An alternative free and open-source password manager to consider.
+https://bitwarden.com/
+https://en.wikipedia.org/wiki/Bitwarden
+https://github.com/bitwarden
+
+
 ### Cmus
 
 cmus is a small, fast and powerful console music player for Unix-like operating systems.  
