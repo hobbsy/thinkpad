@@ -1,22 +1,21 @@
 ## TLP
 
-Notes on installing and running TLP on ThinkPad T440p
-
-Check out this YouTube tutorial:
-https://www.youtube.com/watch?v=Ku0491LfhR4
+Notes on installing and running TLP on ThinkPad T440p, following along with this YouTube tutorial by DorianDotSlash: https://www.youtube.com/watch?v=Ku0491LfhR4
 
 
+Install TLP
 `sudo apt install tlp`
 
+Check that it's running:
 `sudo systemctl status tlp`
 
-not automatically running so either reboot or run:
+By default it's not automatically running, so either reboot your machine or run the command:
 
 `sudo systemctl start tlp`
 
 `sudo tlp-stat -s`
 
-or save the result of that to a text/log file
+or save the result of that to a text/log file if you want
 
 `sudo tlp-stat -s >> "$(date +"%Y%m%d-%H%M")-tlp.log"`
 
