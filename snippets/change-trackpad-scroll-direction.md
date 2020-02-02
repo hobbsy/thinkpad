@@ -6,7 +6,7 @@ You may prefer for your page to scroll down with this gesture...
 
 To adjust this setting you need to go into:  
 
-`Settings > Devices > Mouse & Touchpad
+`Settings > Devices > Mouse & Touchpad`
 
 and under the heading *Touchpad* you can turn on 'Natural Scrolling' 
 
