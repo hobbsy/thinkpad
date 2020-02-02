@@ -62,3 +62,53 @@ change 'Verbosity' to 'Debug'
 restart VLC
 
 
+apparently the logs for vlc were being saved before this (maybe they still are) to the file:
+
+/var/log/syslog
+
+search for vlc within this
+
+
+Searching through this file for 'vlc' I came across:
+
+>Feb  2 14:38:19 pop-os vlc.desktop[1794]: libdvdread: Attempting to use device /dev/sr0 mounted on /media/thinkpad/KING_HILL_S1D1 for CSS authentication
+>Feb  2 14:38:19 pop-os vlc.desktop[1794]: libdvdnav: Can't read name block. Probably not a DVD-ROM device.
+>Feb  2 14:38:19 pop-os vlc.desktop[1794]: libdvdnav: vm: dvd_read_name failed
+>Feb  2 14:38:19 pop-os vlc.desktop[1794]: libdvdnav: DVD disk reports itself with Region mask 0x00fe0000. Regions: 1
+>Feb  2 14:38:19 pop-os vlc.desktop[1794]: libdvdnav: Suspected RCE Region Protection!!!
+>Feb  2 14:38:20 pop-os vlc.desktop[1794]: libdvdnav: Suspected RCE Region Protection!!!
+>Feb  2 14:38:20 pop-os vlc.desktop[1794]: libdvdnav: Using dvdnav version 6.0.0
+>Feb  2 14:38:20 pop-os vlc.desktop[1794]: libdvdread: Encrypted DVD support unavailable.
+>Feb  2 14:38:20 pop-os vlc.desktop[1794]: ************************************************
+>Feb  2 14:38:20 pop-os vlc.desktop[1794]: **                                            **
+>Feb  2 14:38:20 pop-os vlc.desktop[1794]: **  No css library available. See             **
+>Feb  2 14:38:20 pop-os vlc.desktop[1794]: **  /usr/share/doc/libdvdread4/README.css     **
+>Feb  2 14:38:20 pop-os vlc.desktop[1794]: **  for more information.                     **
+>Feb  2 14:38:20 pop-os vlc.desktop[1794]: **                                            **
+>Feb  2 14:38:20 pop-os vlc.desktop[1794]: ************************************************
+
+maybe this isn't Region 2 (UK) but Region 1 (despite what it says on the box). Double-check shortly with a Region 2 DVD.
+
+
+Following the README.css link gives
+
+>Content Scramble System (CSS)
+>-----------------------------
+>
+>Many DVDs use CSS[0] as a form of a Digital Rights Management (DRM) to encrypt
+>the content of Video DVDs. To play such discs a special library is needed to
+>decode them, libdvdcss.
+>
+>Due to the legal limbo of libdvdcss in some particular juristictions, some
+>distributions including Debian do not distribute libdvdcss.
+>
+>If it is legal for you to use CSS in your juristiction, you can:
+>
+>  * Manually download and compile the source code from
+>   <http://www.videolan.org/developers/libdvdcss.html>.
+>
+>  * Use packages from derivatives that include libdvdcss.
+>
+> [0] <http://en.wikipedia.org/wiki/Content_Scramble_System>
+>
+> -- Daniel Baumann <mail@daniel-baumann.ch>  Fri, 02 Oct 2009 16:10:06 +0200
