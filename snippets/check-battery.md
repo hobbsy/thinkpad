@@ -61,10 +61,20 @@ https://support.system76.com/articles/battery/
 
 >We recommend using TLP to quickly reduce overall power consumption and using powertop to check what software is consuming the battery
 
+
 ### TLP
 
 `sudo apt install tlp tlp-rdw --no-install-recommends`
 
+https://wiki.archlinux.org/index.php/TLP
+
+>TLP brings you the benefits of advanced power management for Linux without the need to understand every technical detail. TLP comes with a default configuration already optimized for battery life, so you may just install and forget it. Nevertheless TLP is highly customizable to fulfill your specific requirements.
+
+
 ### PowerTop
 
 `sudo apt install powertop`
+
+https://wiki.archlinux.org/index.php/Powertop
+
+>Powertop is a tool provided by Intel to enable various powersaving modes in userspace, kernel and hardware. It is possible to monitor processes and show which of them are utilizing the CPU and wake it from its Idle-States, allowing to identify applications with particular high power demands. 
