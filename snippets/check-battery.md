@@ -74,7 +74,8 @@ history-time-full-45N1779-99-1093.dat
 
 ## Further Reading
 
-Some helpful notes can be found on Pop!_OS's website and the Arch Wiki
+Some helpful notes can be found on Pop!_OS's website and the Arch Wiki  
+
 https://support.system76.com/articles/battery/
 
 >We recommend using TLP to quickly reduce overall power consumption and using powertop to check what software is consuming the battery  
