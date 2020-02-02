@@ -151,3 +151,20 @@ maybe relevant?
 >>libdvdnav: vm: dvd_read_name failed
 >>libdvdnav: DVD disk reports itself with Region mask 0x00e50000. Regions: 2 4 5
 
+don't seem to be getting anywhere here.
+
+Looking at Ubuntu website for a solution...
+
+**RestrictedFormats/PlayingDVDs**
+https://help.ubuntu.com/community/RestrictedFormats/PlayingDVDs
+
+`sudo apt install libdvd-pkg && sudo dpkg-reconfigure libdvd-pkg`
+
+>Reading package lists... Done
+>Building dependency tree       
+>Reading state information... Done
+>libdvd-pkg is already the newest version (1.4.2-1-1).
+>0 to upgrade, 0 to newly install, 0 to remove and 0 not to upgrade.
+>libdvd-pkg: guest package [libdvdcss2/1.4.2-1~local] is already installed.
+
+maybe a reboot will help?
