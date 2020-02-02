@@ -71,23 +71,22 @@ search for vlc within this
 
 Searching through this file for 'vlc' I came across:
 
-<blockquote>
->Feb  2 14:38:19 pop-os vlc.desktop[1794]: libdvdread: Attempting to use device /dev/sr0 mounted on /media/thinkpad/KING_HILL_S1D1 for CSS authentication
->Feb  2 14:38:19 pop-os vlc.desktop[1794]: libdvdnav: Can't read name block. Probably not a DVD-ROM device.
->Feb  2 14:38:19 pop-os vlc.desktop[1794]: libdvdnav: vm: dvd_read_name failed
->Feb  2 14:38:19 pop-os vlc.desktop[1794]: libdvdnav: DVD disk reports itself with Region mask 0x00fe0000. Regions: 1
->Feb  2 14:38:19 pop-os vlc.desktop[1794]: libdvdnav: Suspected RCE Region Protection!!!
->Feb  2 14:38:20 pop-os vlc.desktop[1794]: libdvdnav: Suspected RCE Region Protection!!!
->Feb  2 14:38:20 pop-os vlc.desktop[1794]: libdvdnav: Using dvdnav version 6.0.0
->Feb  2 14:38:20 pop-os vlc.desktop[1794]: libdvdread: Encrypted DVD support unavailable.
->Feb  2 14:38:20 pop-os vlc.desktop[1794]: ************************************************
->Feb  2 14:38:20 pop-os vlc.desktop[1794]: **                                            **
->Feb  2 14:38:20 pop-os vlc.desktop[1794]: **  No css library available. See             **
->Feb  2 14:38:20 pop-os vlc.desktop[1794]: **  /usr/share/doc/libdvdread4/README.css     **
->Feb  2 14:38:20 pop-os vlc.desktop[1794]: **  for more information.                     **
->Feb  2 14:38:20 pop-os vlc.desktop[1794]: **                                            **
->Feb  2 14:38:20 pop-os vlc.desktop[1794]: ************************************************
-</blockquote>
+>Feb  2 14:38:19 pop-os vlc.desktop[1794]: libdvdread: Attempting to use device /dev/sr0 mounted on /media/thinkpad/KING_HILL_S1D1 for CSS authentication  
+>Feb  2 14:38:19 pop-os vlc.desktop[1794]: libdvdnav: Can't read name block. Probably not a DVD-ROM device.  
+>Feb  2 14:38:19 pop-os vlc.desktop[1794]: libdvdnav: vm: dvd_read_name failed  
+>Feb  2 14:38:19 pop-os vlc.desktop[1794]: libdvdnav: DVD disk reports itself with Region mask 0x00fe0000. Regions: 1  
+>Feb  2 14:38:19 pop-os vlc.desktop[1794]: libdvdnav: Suspected RCE Region Protection!!!  
+>Feb  2 14:38:20 pop-os vlc.desktop[1794]: libdvdnav: Suspected RCE Region Protection!!!  
+>Feb  2 14:38:20 pop-os vlc.desktop[1794]: libdvdnav: Using dvdnav version 6.0.0  
+>Feb  2 14:38:20 pop-os vlc.desktop[1794]: libdvdread: Encrypted DVD support unavailable.  
+>Feb  2 14:38:20 pop-os vlc.desktop[1794]: ************************************************  
+>Feb  2 14:38:20 pop-os vlc.desktop[1794]: **                                            **  
+>Feb  2 14:38:20 pop-os vlc.desktop[1794]: **  No css library available. See             **  
+>Feb  2 14:38:20 pop-os vlc.desktop[1794]: **  /usr/share/doc/libdvdread4/README.css     **  
+>Feb  2 14:38:20 pop-os vlc.desktop[1794]: **  for more information.                     **  
+>Feb  2 14:38:20 pop-os vlc.desktop[1794]: **                                            **  
+>Feb  2 14:38:20 pop-os vlc.desktop[1794]: ************************************************  
+
 
 maybe this isn't Region 2 (UK) but Region 1 (despite what it says on the box). Double-check shortly with a Region 2 DVD.
 
