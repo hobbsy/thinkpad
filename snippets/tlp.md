@@ -45,5 +45,35 @@ save config file then restart
 
 `sudo systemctl restart tlp`
 
+to show all the power settings:
 
+`sudo tlp-stat`
+
+`sudo tlp-stat >> "$(date +"%Y%m%d-%H%M")-tlp-stat.log"`
+
+to just show temperature:  
+
+`sudo tlp-stat -t`
+
+to just show processor info:  
+
+`sudo tlp-stat -p`
+
+to show battery info:
+
+`sudo tlp-stat -b
+
+`sensors`
+
+doesn't work for me by default, so can be installed with:  
+
+`sudo apt install lm-sensors`
+
+`sensors >> "$(date +"%Y%m%d-%H%M")-sensors.log"`
+
+`watch sensors`
+
+show sensors output every 2 seconds
+
+`watch sudo tlp-stat -b`
 
