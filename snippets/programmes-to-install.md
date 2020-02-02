@@ -6,7 +6,7 @@ You should be able to install them all at once in one long command if you wish:
 
 eg
 
-``sudo apt install neofetch tlp keepassxc cmus``
+``sudo apt install neofetch tlp keepassxc cmus mpv``
 
 
 ### Neofetch
@@ -28,12 +28,6 @@ https://keepassxc.org/
 https://wiki.archlinux.org/index.php/KeePass  
 https://en.wikipedia.org/wiki/KeePassXC  
 
-### Bitwarden
-
-An alternative free and open-source password manager to consider.  
-https://bitwarden.com/  
-https://en.wikipedia.org/wiki/Bitwarden  
-https://github.com/bitwarden  
 
 
 ### Cmus
@@ -41,6 +35,23 @@ https://github.com/bitwarden
 cmus is a small, fast and powerful console music player for Unix-like operating systems.  
 https://github.com/cmus/cmus  
 https://wiki.archlinux.org/index.php/Cmus  
+
+
+### mpv
+
+https://wiki.archlinux.org/index.php/Mpv
+
+mpv is a media player based on MPlayer and the now unmaintained mplayer2. It supports a wide variety of video file formats, audio and video codecs, and subtitle types
+
+
+## Alternatives
+
+### Bitwarden
+
+An alternative free and open-source password manager to consider.  
+https://bitwarden.com/  
+https://en.wikipedia.org/wiki/Bitwarden  
+https://github.com/bitwarden  
 
 
 ## Pre-installed Apps
@@ -59,6 +70,13 @@ These programmes ship with most Linux distros (eg. Pop!_OS)
 - [The Camelizer](https://addons.mozilla.org/en-GB/firefox/addon/the-camelizer-price-history-ch/) Amazon price history from CamelCamelCamel
 - [KeePassXC-Browser](https://addons.mozilla.org/en-GB/firefox/addon/keepassxc-browser/) auto-fill passwords from your KeePassXC database
 - [DuckDuckGo](https://addons.mozilla.org/en-US/firefox/addon/duckduckgo-for-firefox/) switch default search engine from Google to DDG
+
+### VLC
+
+https://www.videolan.org/vlc/
+https://wiki.archlinux.org/index.php/VLC_media_player
+
+VLC Media Player will play pretty much all video and audio files you throw at it
 
 
 
