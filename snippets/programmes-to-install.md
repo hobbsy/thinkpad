@@ -98,7 +98,7 @@ https://support.system76.com/articles/dash-to-dock/
 
 ## Playing a DVD
 
-To play a DVD on the T440p DVD-Rom drive using `Videos` in-built app, you might need to install extra multimedia plugins - eg.  
+To play a DVD on the T440p DVD-Rom drive using the `Videos` in-built app (aka Totem), you might need to install extra multimedia plugins - eg.  
 gstreamer1.0-plugins-ugly (this one is pre-selected)  
 
 which installs:  
