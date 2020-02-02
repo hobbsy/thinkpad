@@ -38,6 +38,6 @@ These programmes ship with most Linux distros (eg. Pop!_OS)
 
 #### Firefox extensions
 
-- Pocket (pre-installed)
+- [Pocket](https://getpocket.com/firefox/) (pre-installed)
 - [uBlock Origin](https://addons.mozilla.org/en-GB/firefox/addon/ublock-origin/)
 
