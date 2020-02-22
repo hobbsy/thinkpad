@@ -72,6 +72,43 @@ https://www.makemkv.com/
 https://www.makemkv.com/forum/viewtopic.php?f=3&t=224
 
 
+### Atom
+
+Text editor
+
+### SublimeText
+https://www.sublimetext.com/
+
+using pacman (Arch / Manjaro)
+
+Install instructions found here:
+https://www.sublimetext.com/docs/3/linux_repositories.html#pacman
+
+Install the GPG key: 
+ 
+`curl -O https://download.sublimetext.com/sublimehq-pub.gpg && sudo pacman-key --add sublimehq-pub.gpg && sudo pacman-key --lsign-key 8A8F901A && rm sublimehq-pub.gpg`
+
+add Stable channel:
+
+`echo -e "\n[sublime-text]\nServer = https://download.sublimetext.com/arch/stable/x86_64" | sudo tee -a /etc/pacman.conf`
+
+Update pacman and install Sublime Text
+
+`sudo pacman -Syu sublime-text`
+
+
+
+
+
+Text editor
+
+### Visual Studio Code
+https://code.visualstudio.com/
+
+Text editor
+
+
+
 ## Alternatives
 
 ### Bitwarden
