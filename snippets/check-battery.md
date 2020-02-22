@@ -54,6 +54,14 @@ I probably only need to grab a few of those figures like `energy`, `percentage`,
 
 This could potentially be hooked up with IFTTT and a Google Sheets spreadsheet.  
 
+You can also monitor the live stats using `watch`  
+
+eg  
+
+`watch upower -i /org/freedesktop/UPower/devices/battery_BAT0`
+
+
+
 ## Battery History
 
 Under the directory  
