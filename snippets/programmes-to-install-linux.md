@@ -28,6 +28,11 @@ https://keepassxc.org/
 https://wiki.archlinux.org/index.php/KeePass  
 https://en.wikipedia.org/wiki/KeePassXC  
 
+Install on Arch/Manjaro:
+
+`sudo pacman -S keepassxc`
+
+
 ### Telegram
 
 https://telegram.org/
