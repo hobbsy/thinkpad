@@ -20,9 +20,15 @@ You can narrow it down to just the codename with:
 
 `lsb_release -sc`
 
+if you do not want to see the message "No LSB modules are available" you can run:
 
-https://wiki.ubuntu.com/Releases
-https://wiki.ubuntu.com/DevelopmentCodeNames
+`sudo apt-get install lsb-core`
+
+
+Sources:  
+https://wiki.ubuntu.com/Releases  
+https://wiki.ubuntu.com/DevelopmentCodeNames  
+
 
 4.10 - **Warty** Warthog  
 5.04 - **Hoary** Hedgehog  
