@@ -16,6 +16,11 @@ Codename:	bionic
 
 The codename for my Ubuntu 18.0.4 distro is **bionic**
 
+You can narrow it down to just the codename with:
+
+`lsb_release -sc`
+
+
 https://wiki.ubuntu.com/Releases
 https://wiki.ubuntu.com/DevelopmentCodeNames
 
